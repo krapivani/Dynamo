@@ -4,4 +4,4 @@ This is Dynamo-style key-value storage project; this project implements a simpli
 
 The main goal is to provide both availability and linearizability at the same time. In other words, the dynamo always perform read and write operations successfully even under failures. At the same time, a read operation should always return the most recent value. 
 
-The dynamo has five nodes which fail at times but stores information despite failures. Project design idea from CSE486 course [UB - Steve Ko].
+The dynamo has five nodes which fail at times but stores information despite failures. Base code for poject from CSE486 course [UB - Steve Ko].
